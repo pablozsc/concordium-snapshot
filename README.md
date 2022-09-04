@@ -8,7 +8,7 @@ MacOs: /Library/Application Support/Concordium Node/Mainnet/Data/database-v4
 Windows: C:\ProgramData\Concordium\Node Runner\mainnet\data\database-v4
 ```
 
-Delete treestate-0 and blockstate-0.dat. Download the archive and unpack its contents into this directory. After unpacking into the database-v4 directory, you should have a consistent set of treestate- directories and blockstate- files.
+Delete treestate-0 and blockstate-0.dat. Download the archive and unpack its contents into this directory. After unpacking into the database-v4 directory, you should have a serial set of treestate- directories and blockstate- files.
 
 If you are using linux systems, you will also need to set special permissions for the concordium-mainnet-node user to access the contents of the database-v4 directory using the command:
 `sudo chown 65396:65396 database-v4/ -R`
