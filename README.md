@@ -1,3 +1,5 @@
+This guide is not official, licensed or owned by the Concordium organization.
+
 # Concordium snapshot
 Setting up a fully synchronized node in a couple of clicks. 
 The full database archive is updated once a week on Sundays. The partial database repair archive is updated every day and has the words latest_blocks in the title.
