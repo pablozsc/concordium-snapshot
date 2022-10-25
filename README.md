@@ -2,7 +2,8 @@
 Setting up a fully synchronized node in a couple of clicks. 
 The full database archive is updated once a week on Sundays. The partial database repair archive is updated every day and has the words latest_blocks in the title.
 
-First of all, you need to install the node, following the official guide, run the node once, see it on the dashboard and then stop it. Next, go to the database directory. The location of the database directory differs depending on your system:
+First of all, you need to install the node, following the official guide, run the node once, see it on the dashboard and then stop it.
+Next, go to the database directory. The location of the database directory differs depending on your system:
 ```
 Linux systems: /var/lib/concordium-9dd9ca4d19e9393877d2c44b70f89acbfc0883c2243e5eeaecc0d1cd0503f478/data/database-v4
 MacOs: /Library/Application Support/Concordium Node/Mainnet/Data/database-v4
