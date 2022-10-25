@@ -18,3 +18,4 @@ If you are using linux systems, you will also need to set special permissions fo
 `sudo chown 65396:65396 /var/lib/concordium-9dd9ca4d19e9393877d2c44b70f89acbfc0883c2243e5eeaecc0d1cd0503f478/data/database-v4 -R`
 
 In certain situations, the user may encounter the problem of corrupting the blockchain database. To fix the error, it is enough to delete the last blockstate-.dat and last treestate- directory, and then restart the node and wait for the remaining blocks to be synchronized. To not wait for synchronization, you can download the partial latest_blocks archive and untar it to the database-v4 directory.
+`latest_blocks is a daily copy of the treestate directory and the highest blockstate file.`
