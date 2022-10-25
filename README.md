@@ -7,6 +7,8 @@ First of all, you need to install the node, following the official guide, run th
 Linux systems: /var/lib/concordium-9dd9ca4d19e9393877d2c44b70f89acbfc0883c2243e5eeaecc0d1cd0503f478/data/database-v4
 MacOs: /Library/Application Support/Concordium Node/Mainnet/Data/database-v4
 Windows: C:\ProgramData\Concordium\Node Runner\mainnet\data\database-v4
+
+Docker: You choose the directory yourself, see your yaml config to view the database directory
 ```
 
 You can clean up any files in this directory, e.g. treestate-x and blockstate-x.dat. [Download archive](http://pablo-snapshot.ddns.net) and unpack its contents into database-v4 directory. After unpacking, you should have a serial set of treestate- directories and blockstate- files.
