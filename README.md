@@ -2,7 +2,7 @@ This guide is not official, licensed or owned by the Concordium organization.
 
 # Concordium snapshot
 Setting up a fully synchronized node in a couple of clicks. 
-The full database archive is updated once a week on Sundays. The partial database repair archive is updated every day and has the words latest_blocks in the title.
+The full database archive is updated once a week on Sundays.
 
 First of all, you need to install the node, following the official guide, run the node once, see it on the dashboard and then stop it.
 Next, go to the database directory. The location of the database directory differs depending on your system:
