@@ -14,7 +14,7 @@ Windows: C:\ProgramData\Concordium\Node Runner\mainnet\data\database-v4
 Docker: You choose the directory yourself, see your yaml config to view the database directory
 ```
 
-You can clean up any files in this directory, e.g. treestate-x and blockstate-x.dat. [Download archive](http://178.62.243.92) and unpack its contents into database-v4 directory. After unpacking, you should have a serial set of treestate- directories and blockstate- files.
+You can clean up any files in this directory, e.g. treestate-x and blockstate-x.dat. [Download archive](https://pablo-snapshot.ddns.net) and unpack its contents into database-v4 directory. After unpacking, you should have a serial set of treestate- directories and blockstate- files.
 
 
 If you are using linux systems (not related to docker), you may also need to set special permissions for the concordium-mainnet-node user to access the contents of the database-v4 directory using the command:
